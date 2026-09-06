@@ -15,22 +15,20 @@ September 7-9 2026
 - visual studio code: pick a folder, and open it with vsc
 - introducing NodeJS
 - course repo (all my code will be here)
-  
+    https://github.com/onionmccabbage/nodejsSept2026
 - servers and files (microservices)
 - the Node REPL
   - type node in a terminal to start the REPL (end with ctrl-c twice)
   - tab-tab for code help
-- carry our exercise01 for 20mins (until 11:45)
- - then show-and-tell
 - cli
+- mini exercise (then show-and-tell)
 - Make a package.json:
-  - nmp init -y makes a deflait package.json
+  - nmp init -y makes a default package.json
   - npm init talks us through
 - async-await and promises
-- commonJS (require)  and ESM (import)
-- fixed Promises to use ESM
+- Modules: commonJS (require)  and ESM (import)
 - .js, .mjs etc also package.json
-- the fetch API
+- the fetch API (and latest developments within Node)
 - review exercise
 
 #### Tuesday
@@ -72,5 +70,4 @@ Naming assets (files. folder, variables, functions)
 - review exercises
 
 end of course feedback
-  https://forms.microsoft.com/e/P7KxaCc4DV
 
