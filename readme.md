@@ -1,0 +1,76 @@
+### NodeJS Introduction
+
+Toby Dussek - Framework Training
+September 7-9 2026
+
+ 9:30 start
+11:00 coffee
+12:30 lunch until 1:30
+ 3:00 Tea
+ 4:30 end
+
+#### Monday
+- welcome and tech-check
+- overview of the course, exercises etc.
+- visual studio code: pick a folder, and open it with vsc
+- introducing NodeJS
+- course repo (all my code will be here)
+  
+- servers and files (microservices)
+- the Node REPL
+  - type node in a terminal to start the REPL (end with ctrl-c twice)
+  - tab-tab for code help
+- carry our exercise01 for 20mins (until 11:45)
+ - then show-and-tell
+- cli
+- Make a package.json:
+  - nmp init -y makes a deflait package.json
+  - npm init talks us through
+- async-await and promises
+- commonJS (require)  and ESM (import)
+- fixed Promises to use ESM
+- .js, .mjs etc also package.json
+- the fetch API
+- review exercise
+
+#### Tuesday
+- quick summary of where we're at
+- modules, package.json and npm
+- ways to import and export
+- architecture best/common practices
+- debugging with Chrome dev tools
+- dev/prod and tool-chains
+- async operation debugging
+- write scripts in package.json to begin debug: node --inspect-brk calc.js
+- unit testing
+  https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
+  https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
+- test-driven development and robust coding
+- ES features
+- Typescript is important...
+  npm install -g tsc // the typescript compiler
+  npm install -g ts-node // to 'run' ts files (actually runs the js file)
+  also see tsconfig.json
+  https://typescriptlang.org
+- review exercises
+
+Naming assets (files. folder, variables, functions)
+- letters, numbers, underscore
+- dont start with a digit
+
+#### Wednesday
+- the event loop
+- Node events
+- Web and webpack
+- Observables see https://rxjs.dev and https://rxmarbles.com/
+- responding to events and handling errors
+- features:
+  see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
+- Express.js for convenient server-side features
+- Express architecture: server, index, middleware
+- buffers and streams
+- review exercises
+
+end of course feedback
+  https://forms.microsoft.com/e/P7KxaCc4DV
+
