@@ -8,13 +8,17 @@ There will be an opportunity to show what you've built
 
 Ask each other, ask me, look online....
 
+## Architecture
+
+It doesn't matter how you choose to structure your code, but consider maybe using named functions for more complex code 
+
 ### Details
 
 * Create a new module (or edit an existing one) 
 * Add code to conditionally check for the route '/content'
 * For that route, use 'fs' to read from a text file (e.g. example.txt)
 * Send the contents retrieved from the file as the response to the request for '/content/'
-* If you like, puta small amount of HTML into a text file to be retrieved and sent as above
+* If you like, put a small amount of HTML into a text file to be retrieved and sent as above
 
 ### Optional (if time)
 
