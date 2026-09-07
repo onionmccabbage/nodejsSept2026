@@ -1,7 +1,7 @@
 // fetch some public data from an internet REST API
 
 const getRandom = ()=>{
-    return matchMedia.floor(Math.random()*8) +1 // random int 1-9
+    return Math.floor(Math.random()*8) +1 // random int 1-9
 }
 
 // a custom function
