@@ -20,7 +20,7 @@ const server = createServer( (req, res)=>{
         res.write('<h3>Welcome</h3>')
     }
     // a route to the 'about' page
-    if (req.url == '/about'){
+    else if (req.url == '/about'){
         // res.statusCode = 200 // specificy a status code
         // res.writeHead(200, {'content-type':'text/html'})
         res.write('<h3>About Us</h3>')
