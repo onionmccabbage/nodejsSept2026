@@ -13,12 +13,30 @@ const server = createServer( (req, res)=>{
         console.error(err) // console has log, error, warn, info
     })
     // act according to the URL
+    res.writeHead(200, {'content-type':'text/html'})
     // if it is the root 
     if (req.url == '/'){
         // res.statusCode = 200 // specificy a status code
-        res.writeHead(200, {'content-type':'text/html'})
         res.write('<h3>Welcome</h3>')
     }
+    // a route to the 'about' page
+    if (req.url == '/about'){
+        // res.statusCode = 200 // specificy a status code
+        // res.writeHead(200, {'content-type':'text/html'})
+        res.write('<h3>About Us</h3>')
+    }
+    // any other route...
+    else {
+        res.write('<h3>Not Found</h3>')
+    }
+    // when done
+    res.end('all done') // runs after any of the above
 } )
+// some parameters
+const hostName = '127.0.0.1'
+const port     = '3000'
 
-server.listen( ()=>{} )
+server.listen( (port, hostName)=>{
+    // we use back-tick syntax to build strings
+    console.info(`Server is running at http://${hostName}:${port}`)
+} )
