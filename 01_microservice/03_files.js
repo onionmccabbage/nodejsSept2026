@@ -1,6 +1,9 @@
 // using the file system
 const fs = require('fs') // here we use commonJS
 
+// we can append to a file (creates if not exist)
+fs.appendFile('example.txt', '\nnew content', ()=>{})
+
 // the call-back argument order mattters. Here error then data
 fs.readFile('example.txt', 'utf8', (error, data)=>{
     if(error){
