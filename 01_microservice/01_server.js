@@ -9,8 +9,13 @@ http.createServer((request, response)=>{
         console.log(err)
     })
     // respond to requests
-    if (request.method === 'GET') {
-        response.write('hello')
-        response.end() // this ends the response stream
+    const data = 'here is some content'
+    if (request.method === 'GET') { // GET or POST
+        response.write(data)
+        response.write('is it coffee time yet?')
+        response.end('we are nearly there') // this ends the response stream
     }
+    // we could hande POST, PUT, UPDATE etc with further code blocks
 }).listen(8080)
+
+// how to run code in watch mode....
