@@ -9,3 +9,8 @@ export let arr = [5,4,3,2,7,,35,12]
 export default class DoNowt{ 
     // does nothing
 }
+// an alternative syntax
+function fn(){
+    return 'this works'
+}
+export {fn}
