@@ -4,8 +4,8 @@ Toby Dussek - Framework Training
 September 7-9 2026
 
 * 9:30 start
-*11:00 coffee
-*12:30 lunch until 1:30
+* 11:00 coffee
+* 12:30 lunch until 1:30
 * 3:00 Tea
 * 4:30 end
 
@@ -39,7 +39,7 @@ September 7-9 2026
 - debugging with Chrome dev tools
 - dev/prod and tool-chains
 - async operation debugging
-- write scripts in package.json to begin debug: node --inspect-brk calc.js
+- write scripts in package.json to debug: node --inspect-brk calc.js
 - unit testing
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
