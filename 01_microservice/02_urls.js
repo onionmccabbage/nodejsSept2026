@@ -32,11 +32,18 @@ const server = createServer( (req, res)=>{
     // when done
     res.end('all done') // runs after any of the above
 } )
-// some parameters
-const hostName = '127.0.0.1'
-const port     = '3000'
 
-server.listen( (port, hostName)=>{
+// some parameters (in the global scope)
+const hostName = '127.0.0.1'
+const port = 3000
+
+// the order of arguments matters, this is what the server.listen expects
+server.listen( port, hostName, ()=>{
     // we use back-tick syntax to build strings
     console.info(`Server is running at http://${hostName}:${port}`)
 } )
+
+// to run a node mdule 
+// node nnn.js
+// or
+// node --watch nnn.js // this will re-run the code when we make changes
