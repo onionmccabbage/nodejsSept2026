@@ -27,13 +27,13 @@ const server = createServer((req, res) => { // request and response objects
         res.end()
     }
     else if (req.url == '/content') {
-        // read from file
+        // read from file (async) // also see readFileSync
         fs.readFile('example.txt', 'utf8', (error, data) => {
             if (error) {
                 console.log(error)
                 return
             }
-            else if (data) {
+            else if (data) { // when we have the data retrieved...
                 console.log(data)
                 // send the file contents in the request response
                 res.write(data)

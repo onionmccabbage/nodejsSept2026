@@ -22,6 +22,7 @@ September 7-9 2026
   - tab-tab for code help
 - cli
 - review exercise (then show-and-tell)
+  - sync and async
 - Make a package.json:
   - nmp init -y makes a default package.json
   - npm init talks us through
