@@ -1,4 +1,4 @@
-## Review Exercise 1
+## Review Exercise 1 30 mins (until 2:15)
 
 Combine the 'URL server' and the 'file access' code to deliver the contents of a text file to a browser when the route is '/content'
 
