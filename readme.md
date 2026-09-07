@@ -20,20 +20,20 @@ September 7-9 2026
 - the Node REPL
   - type node in a terminal to start the REPL (end with ctrl-c twice)
   - tab-tab for code help
-- cli
-- review exercise (then show-and-tell)
-  - sync and async
-- Make a package.json:
+* cli
+* review exercise (then show-and-tell)
+* Make a package.json:
   - nmp init -y makes a default package.json
   - npm init talks us through
-- Modules: commonJS (require)  and ESM (import)
-- .js, .mjs etc also package.json
+* Modules: commonJS (require)  and ESM (import)
+* .js, .mjs etc also package.json
 - the fetch API (and latest developments within Node)
 - async-await and promises
 
 #### Tuesday
 - quick summary of where we're at
 - modules, package.json and npm
+- sync and async
 - ways to import and export
 - architecture best/common practices
 - debugging with Chrome dev tools
