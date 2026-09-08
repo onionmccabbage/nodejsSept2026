@@ -10,17 +10,18 @@ import {EventEmitter} from 'node:events'
 const MyEvent = new EventEmitter()
 
 // next we decide on what our event will respond to
-MyEvent.on('wibble', ()=>{
-    console.log('a wibble event just happened')
+MyEvent.on('wibble', (a, b)=>{
+    console.log(`a wibble event just happened and we have ${a} and ${b}`)
 })
-MyEvent.on('wobble', ()=>{
-    console.warn('Warning Will Robinson ....')
+MyEvent.on('wobble', (x='default')=>{
+    console.warn(`Warning Will Robinson .... ${x}`)
 })
 MyEvent.on('wubble', ()=>{
     throw Error('oops')
 })
 
 // we trigger our event like this
-MyEvent.emit('wibble') // here the wibble event will happen!!!
+MyEvent.emit('wibble', true, {'name':'Floella'}) // here the wibble event will happen!!!
 MyEvent.emit('wobble') 
-MyEvent.emit('wubble') 
+MyEvent.emit('wobble', 'override') 
+// MyEvent.emit('wubble') 
