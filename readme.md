@@ -41,7 +41,7 @@ September 7-9 2026
 * fetch the latest...
 * EventEmitter
 - dev/prod and tool-chains
-- write scripts in package.json to debug: node --inspect-brk calc.js
+* write scripts in package.json to "debug": "node --inspect-brk calc.js"
 - unit testing
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
