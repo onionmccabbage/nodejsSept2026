@@ -1,17 +1,16 @@
 {
-  "name": "03_package",
+  "name": "06_unit_test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+     "test": "vitest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    
-  },
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "vitest": "^2.1.5"
   }
 }
