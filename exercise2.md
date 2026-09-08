@@ -8,6 +8,8 @@ Write a simple Node app that fetches information from the public swapi API and t
 
 3. Fetch the details of that planet from the provided URL.
 
+4. Show some of the person and homeworld data
+
 There are two approaches to this (choose either):
 
 - Using async and await
