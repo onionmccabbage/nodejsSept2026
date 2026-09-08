@@ -32,12 +32,14 @@ September 7-9 2026
 * quick summary of where we're at
 * the fetch API (and latest developments within Node)
 * async-await and promises
-- modules, package.json and npm
+  - https://rxjsmarbles.dev show examples of combining streams
+  - `streams are arrays over time`
+* modules, package.json and npm
 * sync and async
 - ways to import and export
 - architecture best/common practices
 - debugging and Chrome dev tools
-- review exercise (inc debug)
+* review exercise (inc debug)
 * fetch: the latest...
 * EventEmitter
 - dev/prod and tool-chains
