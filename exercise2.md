@@ -1,4 +1,6 @@
-**Exercise 2: Fetch with Promises**
+**Exercise 2: Fetch with Promises** 
+
+#### 1hr (until 2:55)
 
 Write a simple Node app that fetches information from the public swapi API and then fetches further data, based on the initial fetch.
 
@@ -27,7 +29,7 @@ There will be a chance to show your code after the exercise
 * Use runtime arguments to inject the integer to be used (instead of using a random number)
 * Maybe also pass in a category for the second fetch operation (could be 'planet', or 'films')
 * Create package.json then write a script in it to run the file with --watch
-* Combine this swapi-fetching code with the microservice server from earlier, so that the route '/swap' sends the retrieved person and planet to the browser
+* Combine this swapi-fetching code with the microservice server from earlier, so that the route '/swapi' sends the retrieved person and planet to the browser
 * You could also write the retrieved data to a log file
 * Consider how you could break the code across a number of small modules
 * You would then import the functionality to a main file
