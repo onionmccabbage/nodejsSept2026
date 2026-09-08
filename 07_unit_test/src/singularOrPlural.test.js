@@ -4,6 +4,9 @@ import getSinguralOrPlural from "./singularOrPlural";
 // Exercise 4
 describe("Will return singular for value of 1", () => {
     test("should return singular when the count is 1", () => {
+        // we make assertions in our tests
+        expect(1===1).toBeTruthy()
+
         expect(getSinguralOrPlural(1, "woman", "women")).to.equal("woman");
     });
 });

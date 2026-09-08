@@ -15,4 +15,4 @@ export default function getSinguralOrPlural(count, singular, plural) {
   // return count > 1 ? plural : singular
 }
 
-module.exports = getSinguralOrPlural;
+// module.exports = getSinguralOrPlural;

@@ -71,7 +71,7 @@ Naming assets (files. folder, variables, functions)
 - Express.js for convenient server-side features
 - Express architecture: server, index, middleware
 - buffers and streams
-- review exercises
+- review exercises inc optional testing
 
 end of course feedback
 
