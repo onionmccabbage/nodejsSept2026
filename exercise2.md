@@ -12,7 +12,7 @@ Write a simple Node app that fetches information from the public swapi API and t
 
 There are two approaches to this (choose either):
 
-- Using async and await
+- Using async and await (more common)
 - Using Promise.then()
 
 Ensure you handle any potential errors at each step, including handling cases where a person or planet does not exist
