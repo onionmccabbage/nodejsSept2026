@@ -27,18 +27,17 @@ September 7-9 2026
   - npm init talks us through
 * Modules: commonJS (require)  and ESM (import)
 * .js, .mjs etc also package.json
-- the fetch API (and latest developments within Node)
-- async-await and promises
 
 #### Tuesday
-- quick summary of where we're at
+* quick summary of where we're at
+- the fetch API (and latest developments within Node)
+- async-await and promises
 - modules, package.json and npm
 - sync and async
 - ways to import and export
 - architecture best/common practices
-- debugging with Chrome dev tools
+- debugging and Chrome dev tools
 - dev/prod and tool-chains
-- async operation debugging
 - write scripts in package.json to debug: node --inspect-brk calc.js
 - unit testing
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
