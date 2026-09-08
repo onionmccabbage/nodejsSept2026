@@ -25,9 +25,18 @@ const fetchPersonPromise=()=>{
 // This makes it a promise
 const fetchPlanetAsync = async ()=>{
     const rand = getRandom()
-    const response = await fetch(`https://swapi.dev/api/planets/${rand}`)
-    // this next line will only run when the await has returned
-    return response.json()
+    try {
+        const response = await fetch(`https://swapi.dev/api/planets/${rand}`)
+        // this next line will only run when the await has returned
+        return response.json()
+    }
+    catch(err) { // this will catch any exception from the try block
+        console.error(err)
+    }
+    finally {
+        // we use this to tidy up in case stuff is left hanging
+        console.log('this finally block always runs')
+    }
 }
 
 // call our code
