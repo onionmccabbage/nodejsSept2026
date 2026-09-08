@@ -30,7 +30,7 @@ September 7-9 2026
 
 #### Tuesday
 * quick summary of where we're at
-- the fetch API (and latest developments within Node)
+* the fetch API (and latest developments within Node)
 * async-await and promises
 - modules, package.json and npm
 * sync and async
@@ -38,7 +38,8 @@ September 7-9 2026
 - architecture best/common practices
 - debugging and Chrome dev tools
 - review exercise
-- fetch the latest...
+* fetch the latest...
+* EventEmitter
 - dev/prod and tool-chains
 - write scripts in package.json to debug: node --inspect-brk calc.js
 - unit testing

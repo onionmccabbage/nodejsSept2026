@@ -20,6 +20,11 @@ MyEvent.on('wubble', ()=>{
     throw Error('oops')
 })
 
+MyEvent.on('userLoggedIn', ()=>{
+    // all good
+})
+
+
 // we trigger our event like this
 MyEvent.emit('wibble', true, {'name':'Floella'}) // here the wibble event will happen!!!
 MyEvent.emit('wobble') 
