@@ -38,7 +38,7 @@ September 7-9 2026
 - architecture best/common practices
 - debugging and Chrome dev tools
 - review exercise (inc debug)
-* fetch the latest...
+* fetch: the latest...
 * EventEmitter
 - dev/prod and tool-chains
 * write scripts in package.json to "debug": "node --inspect-brk calc.js"
@@ -52,7 +52,7 @@ September 7-9 2026
   npm install -g ts-node // to 'run' ts files (actually runs the js file)
   also see tsconfig.json
   https://typescriptlang.org
-- review exercises
+
 
 Naming assets (files. folder, variables, functions)
 - letters, numbers, underscore
