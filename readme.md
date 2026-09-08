@@ -37,7 +37,7 @@ September 7-9 2026
 - ways to import and export
 - architecture best/common practices
 - debugging and Chrome dev tools
-- review exercise
+- review exercise (inc debug)
 * fetch the latest...
 * EventEmitter
 - dev/prod and tool-chains
