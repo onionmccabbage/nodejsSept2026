@@ -22,6 +22,8 @@ As usual, ask around, look online etc.
 There will be a chance to show your code after the exercise
 
 ## Optional
+* Use runtime arguments to inject the integer to be used (instead of using a random number)
+* Maybe also pass in a category for the second fetch operation (could be 'planet', or 'films')
 * Create package.json then write a script in it to run the file with --watch
 * Combine this swapi-fetching code with the microservice server from earlier, so that the route '/swap' sends the retrieved person and planet to the browser
 * You could also write the retrieved data to a log file
