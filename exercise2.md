@@ -14,6 +14,7 @@ a) Using async and await
 b) Using Promise.then()
 
 Ensure you handle any potential errors at each step, including handling cases where a person or planet does not exist
+
 If you like, use the debug tools to help you understand the code as you develop it 
 
 As usual, ask around, look online etc.
@@ -24,4 +25,8 @@ There will be a chance to show your code after the exercise
 * Create package.json then write a script in it to run the file with --watch
 * Combine this swapi-fetching code with the microservice server from earlier, so that the route '/swap' sends the retrieved person and planet to the browser
 * You could also write the retrieved data to a log file
-* Consider how you could break the code across a number of small modules. You would import the functionality to a main file. Also consider writing some custom events, e.g. 'AllDataRetrieved' event or 'SomethingWentWrong' event
+* Consider how you could break the code across a number of small modules
+
+- You would then import the functionality to a main file
+
+* Also consider writing some custom events, e.g. 'AllDataRetrieved' event or 'SomethingWentWrong' event
