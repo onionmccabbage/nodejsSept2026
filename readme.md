@@ -13,7 +13,7 @@ September 7-9 2026
 * welcome and tech-check
 * overview of the course, exercises etc.
 * visual studio code: pick a folder, and open it with vsc
-- introducing NodeJS
+* introducing NodeJS
 * course repo (all my code will be here)
     https://github.com/onionmccabbage/nodejsSept2026
 * servers and files (microservices)
@@ -36,18 +36,18 @@ September 7-9 2026
   - `streams are arrays over time`
 * modules, package.json and npm
 * sync and async
-- ways to import and export
-- architecture best/common practices
+* ways to import and export: import nnn, or import {nnn}
+* architecture best/common practices
 - debugging and Chrome dev tools
 * review exercise (inc debug)
 * fetch: the latest...
 * EventEmitter
-- dev/prod and tool-chains
+* dev/prod and tool-chains
 * write scripts in package.json to "debug": "node --inspect-brk calc.js"
-- unit testing
+* unit testing  
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
-- test-driven development and robust coding
+* test-driven development and robust coding
 - ES features
 - Typescript is important...
   npm install -g tsc // the typescript compiler
@@ -63,15 +63,15 @@ Naming assets (files. folder, variables, functions)
 #### Wednesday
 - the event loop
 - Node events
-- Web and webpack
-- Observables see https://rxjs.dev and https://rxmarbles.com/
+- Web and webpack (briefly)
+* Observables see https://rxjs.dev and https://rxmarbles.com/
 - responding to events and handling errors
 - features:
   see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
 - Express.js for convenient server-side features
 - Express architecture: server, index, middleware
 - buffers and streams
-- review exercises inc optional testing
+- review exercises (inc. optional testing)
 
 end of course feedback
-
+  https://forms.cloud.microsoft/e/7QZfPEw71T
