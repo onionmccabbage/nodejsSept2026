@@ -17,9 +17,9 @@ class Photo { // by default inherit from 'object'
 
 // make instances of our class
 p1 = new Photo('A cat', 'https://nonsuch.org') // runs the class constructor
-
+const which = 'title'
 console.log(p1, p1.title)
-p1['title'] = 'a dog' // we can mutate the properties
+p1[`{which}`] = 'a dog' // we can mutate the properties
 // or
 console.log(p1, p1['title']) // we must quote the property name
 console.log(p1.prettyPrint())

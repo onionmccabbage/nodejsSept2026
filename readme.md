@@ -48,7 +48,7 @@ September 7-9 2026
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
 * test-driven development and robust coding
-- ES features
+- ES features: classes, rest, fn etc.
 - Typescript is important...
   npm install -g tsc // the typescript compiler
   npm install -g ts-node // to 'run' ts files (actually runs the js file)
