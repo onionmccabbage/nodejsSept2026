@@ -66,7 +66,7 @@ Naming assets (files. folder, variables, functions)
 - Web and webpack (briefly)
 * Observables see https://rxjs.dev and https://rxmarbles.com/
 - responding to events and handling errors
-- features:
+* features:
   see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
 - Express.js for convenient server-side features
 - Express architecture: server, index, middleware
