@@ -74,8 +74,8 @@ Naming assets (files. folder, variables, functions)
 - review exercise (inc. optional testing)
 
 Questions:
-q - node version manager and nvmrc (also .nvmrc)
-q - the build command
+* node version manager and nvmrc (also .nvmrc)
+* the build command
 
 end of course feedback
   https://forms.cloud.microsoft/e/7QZfPEw71T
