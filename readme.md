@@ -61,8 +61,8 @@ Naming assets (files. folder, variables, functions)
 - dont start with a digit
 
 #### Wednesday
-- the event loop
-- Node events
+* the event loop (also remember sync operations which will block)
+* Node events
 - Web and webpack (briefly)
 * Observables see https://rxjs.dev and https://rxmarbles.com/
 - responding to events and handling errors
