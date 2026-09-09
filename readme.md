@@ -68,10 +68,14 @@ Naming assets (files. folder, variables, functions)
 - responding to events and handling errors
 * features:
   see https://caniuse.com/ and https://compat-table.github.io/compat-table/es6/
-- Express.js for convenient server-side features
-- Express architecture: server, index, middleware
+* Express.js for convenient server-side features
+* Express architecture: server, index, middleware
 - buffers and streams
-- review exercises (inc. optional testing)
+- review exercise (inc. optional testing)
+
+Questions:
+q - node version manager
+q - the build command
 
 end of course feedback
   https://forms.cloud.microsoft/e/7QZfPEw71T

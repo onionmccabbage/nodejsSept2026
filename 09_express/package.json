@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "debug": "SET DEBUG=09-express:* & npm start"
+    "debug": "SET DEBUG=09-express:* & npm start",
+    "build": "node build app.js",
+    "inspect": "node --inspect & npm start"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
