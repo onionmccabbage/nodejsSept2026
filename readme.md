@@ -38,7 +38,7 @@ September 7-9 2026
 * sync and async
 * ways to import and export: import nnn, or import {nnn}
 * architecture best/common practices
-- debugging and Chrome dev tools
+* debugging and Chrome dev tools
 * review exercise (inc debug)
 * fetch: the latest...
 * EventEmitter
@@ -48,8 +48,8 @@ September 7-9 2026
   https://vitest.dev/guide/ also https://jestjs.io/docs/getting-started
   https://raygun.com/blog/javascript-unit-testing-frameworks/#vitest
 * test-driven development and robust coding
-- ES features: classes, rest, fn etc.
-- Typescript is important...
+* ES features: classes, rest, fn etc.
+* Typescript is important...
   npm install -g tsc // the typescript compiler
   npm install -g ts-node // to 'run' ts files (actually runs the js file)
   also see tsconfig.json
